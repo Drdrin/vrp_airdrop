@@ -51,12 +51,11 @@ Citizen.CreateThread(function()
     end
 end)
 
-
---
+--[[
 RegisterCommand('vrpTest', function()
 TriggerServerEvent('vrpAirdrop:Startet')
 end)
---
+]]--
 
 --Events--
 RegisterNetEvent('vrpAirdrop:StatusUpdate')
