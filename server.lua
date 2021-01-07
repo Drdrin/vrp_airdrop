@@ -43,10 +43,3 @@ TriggerClientEvent('vrpAirdrop:StatusUpdate', -1, vrpMissionIgangServer)
         end
     end})
 end)
-
-RegisterServerEvent("coke:GiveItem")
-AddEventHandler("coke:GiveItem", function()
-	local _source = source
-	local user_id = vRP.getUserId({_source})
-	vRP.giveInventoryItem({user_id,"kokain",50})
-end)
