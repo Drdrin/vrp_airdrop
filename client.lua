@@ -51,6 +51,7 @@ Citizen.CreateThread(function()
     end
 end)
 
+--Kun pil ved denne hvis du ved hvad du laver
 --[[
 RegisterCommand('vrpTest', function()
 TriggerServerEvent('vrpAirdrop:Startet')
